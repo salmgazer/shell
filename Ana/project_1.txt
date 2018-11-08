@@ -1,0 +1,19 @@
+1. Copy entire parent directory to dropbox local:
+2. What is/are the path(s) to the target dropbox folder
+ - this can be dynamic, enter when running program
+3. If parent folder already exists, copy its content into the existing parent folder
+4. Else simply copy entire parent directory into the dropbox local
+
+
+Solution:
+
+1 - Parse parameters correctly:
+  a. Source directory -- where new files are located
+  b. Destination directory -- root directory of Destination
+
+2 - Creating new directories
+  a. If publisher is new, then copy contents
+  b. If publisher doesn't exist, create folder and 
+
+3 - Copy content to directory
+  a. Recursively copy files and folders
